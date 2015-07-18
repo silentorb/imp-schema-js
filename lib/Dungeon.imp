@@ -1,0 +1,11 @@
+realm {
+
+  Dungeon {
+    name:string
+    owner:Dungeon
+    parent:Dungeon
+    children:Dungeon[]
+    portals:Portal[]
+
+  }
+}

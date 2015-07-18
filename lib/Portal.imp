@@ -1,0 +1,7 @@
+realm {
+  Portal {
+    name:string
+    parent:Dungeon
+    profession:Profession
+  }
+}
