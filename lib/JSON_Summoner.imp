@@ -1,9 +1,21 @@
-realm {
+imp.schema {
+
+  Schema_Source {
+    trellises:Trellis_Source[]
+  }
+
+  Trellis_Source {
+
+  }
 
   JSON_Summoner {
 
-    load(json) {
+    load(json, dungeon:Dungeon) {
+      if (json.trellises != null) {
+        for (var trellis in json.trellises) {
 
+        }
+      }
     }
   }
 }

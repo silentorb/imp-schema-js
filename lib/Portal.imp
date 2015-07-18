@@ -1,4 +1,4 @@
-realm {
+imp.schema {
   Portal {
     name:string
     parent:Dungeon
