@@ -1,0 +1,9 @@
+realm {
+
+  JSON_Summoner {
+
+    load(json) {
+
+    }
+  }
+}

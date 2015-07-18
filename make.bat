@@ -1,0 +1,1 @@
+start "" E:\Dev\imp\Imp_CLI\bin\Debug\imp-cli.exe -i lib -o imp-schema.js -t js

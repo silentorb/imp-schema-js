@@ -6,6 +6,5 @@ realm {
     parent:Dungeon
     children:Dungeon[]
     portals:Portal[]
-
   }
 }
