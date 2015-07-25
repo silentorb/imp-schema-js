@@ -10,7 +10,7 @@ imp.schema {
 
   JSON_Summoner {
 
-    load(json, dungeon:Dungeon) {
+    load(json:Schema_Source, dungeon:Dungeon) {
       if (json.trellises != null) {
         for (var trellis in json.trellises) {
 
